@@ -743,11 +743,15 @@ mod eyedropper_context_menu_tests;
 #[cfg(test)]
 mod menu_automate_groups_tests;
 #[cfg(test)]
+mod patch_rasterize_prompt_tests;
+#[cfg(test)]
 mod patch_shift_constrain_tests;
 #[cfg(test)]
 mod paths_scroll_tests;
 #[cfg(test)]
 mod pencil_pressure_toggles_tests;
+#[cfg(test)]
+mod smudge_alt_finger_tests;
 
 #[cfg(test)]
 mod lifecycle_tests;
@@ -906,6 +910,9 @@ mod star_tool_tests;
 
 #[cfg(test)]
 mod new_doc_bitmap_mode_tests;
+
+#[cfg(test)]
+mod new_doc_recent_items_tests;
 
 #[cfg(test)]
 mod transform_several_tests;
